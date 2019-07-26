@@ -1,0 +1,48 @@
+@mixin bordaInput {
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: solid 1px black;
+}
+
+@mixin lupaInput {
+    background: url(../images/lupa.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+@mixin hoverHeader {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@mixin btn {
+    width: 210px;
+    height: 40px;
+    align-content: center;
+    margin-left: 88px;
+    margin-top: 39px;
+    padding-bottom: 4px;
+}
+
+@mixin hrImagensDireita {
+    width: 520px;
+    margin-top: -36px;
+    margin-bottom: 32px;
+    margin-left: 155px;
+    position: relative;
+    background-color: #ebe8e8;
+}
+
+@mixin hrImagensEsquerda {
+    width: 530px;
+    margin-top: -34px;
+    margin-bottom: 32px;
+    margin-left: -500px;
+    position: relative;
+    background-color: #ebe8e8;
+}
